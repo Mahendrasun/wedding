@@ -22,6 +22,19 @@
   
   }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 720px)  { 
+    .hero {
+      min-height: 443px;
+      background: url("../img/Banner-mobile.png") center center no-repeat;;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: contain;;
+      position: relative;
+    
+    }
+  }
 @media screen and (max-width: 1024px) {
     .hero .hero-content {
         padding-top: 50%;
